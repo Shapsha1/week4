@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="top_background">
+      <header>
+        <a href="#"><img id="logo" src="assets/images/Group192.svg" alt="Лого" /></a>
+        <div id="top_menu">
+          <nav id="top_nav">
+            <a href="#" class="nav_option">Главная</a>
+            <a href="#" class="nav_option">Про гида</a>
+            <a href="#" class="nav_option">Программа тура</a>
+            <a href="#" class="nav_option">Стоимость</a>
+            <a href="#" class="nav_option">Блог</a>
+            <a href="#" class="nav_option">Контакты</a>
+          </nav>
+          <button type="button" class="big_button">Консультация</button>
+        </div>
+      </header>
+      <h1 id="headline">
+        Насладись прогулкой в горах <br />
+        с командой единомышленников
+      </h1>
+      <section id="search_form">
+        <form id="select_form">
+          <label for="location_select" class="label_select">
+            <select name="location" id="location_select" class="search_select">
+              <option value="">Локация для тура</option>
+            </select>
+            <span class="label_text">выберите из списка</span></label
+          >
+          <label for="date_select" class="label_select">
+            <select name="date" id="date_select" class="search_select">
+              <option value="">Дата похода</option></select
+            ><span class="label_text">укажите диапазон</span></label
+          >
+          <label for="members_select" class="label_select">
+            <select name="members" id="members_select" class="search_select">
+              <option value="">Участники</option></select
+            ><span class="label_text">минимум 4 человека</span></label
+          >
+          <button type="submit" class="big_button">Найти программу</button>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
