@@ -151,7 +151,7 @@ header {
   background-color: #fdfdfd;
   color: #1a3e3e;
 }
-new #search_form .big_button:hover {
+#search_form .big_button:hover {
   background-color: #d8e5e5;
 }
 
