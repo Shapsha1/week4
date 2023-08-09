@@ -37,21 +37,26 @@
         Насладись прогулкой в горах <br />
         с командой единомышленников
       </h1>
-      <section id="search_form">
-        <form id="select_form">
-          <label for="location_select" class="label_select">
-            <select name="location" id="location_select" class="search_select">
+      <section id="trip_search_section">
+        <form id="trip_search_form">
+          <label for="location_select" class="trip_search_label">
+            <select name="location" id="location_select" class="trip_search_input">
               <option value="">Локация для тура</option>
             </select>
             <span class="label_text">выберите из списка</span></label
           >
-          <label for="date_select" class="label_select">
-            <select name="date" id="date_select" class="search_select">
-              <option value="">Дата похода</option></select
-            ><span class="label_text">укажите диапазон</span></label
+          <label for="date_select" class="trip_search_label">
+            <input
+              placeholder="Дата похода"
+              class="trip_search_input"
+              type="text"
+              onfocus="(this.type='date')"
+              id="date_select"
+            />
+            <span class="label_text">укажите диапазон</span></label
           >
-          <label for="members_select" class="label_select">
-            <select name="members" id="members_select" class="search_select">
+          <label for="members_select" class="trip_search_label">
+            <select name="members" id="members_select" class="trip_search_input">
               <option value="">Участники</option></select
             ><span class="label_text">минимум 4 человека</span></label
           >
